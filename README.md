@@ -1,4 +1,4 @@
-## 📊 Fluxo de Requisição (flowchart TD)
+```mermaid
 
 flowchart TD
     A[Usuário acessa /] --> B[DispatcherServlet recebe requisição]
@@ -11,3 +11,5 @@ flowchart TD
     B2 --> C2[ProductRestController.processa]
     C2 --> D2[Service recupera produtos]
     D2 --> E2[Retorna JSON para o cliente]
+
+```
